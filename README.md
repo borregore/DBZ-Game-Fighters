@@ -9,17 +9,24 @@
 
 **Why use OOP?** It's a better way to work, since it depends on the object's communication (messages), you can add modularity to your project, make big problems into a squence of small problems, reuse code so it is time and space efficient, find bugs faster, and it also allows you to restrict your data.
 
-**Class**: It's the blue print of an object; from this an object is created.
+**Class**: It's the blueprint of an object; from this an object is created.
+
+**Instance** It's the occurance of objects from a blueprint.
+
+# Java 
 
 **Interface**: It's like a contract which establishes actions that every single object that implements this has to do; how each object implements it, it doesn't matter. 
 
-**Diferences between abstract and interfaces**: The difference between a interface and a abstract class is that an abstract class can manage attributes which interfaces can't. The interface can be multi implemented (a sub class can implement several interfaces) and a abstract class can only be extended to 1 (a subclass of an abstract class can only have 1). The abstract class generalizes the attributes and methods that are the same in different classes meanwhile the interface just establishes methods that a class has to do, it doesn't matter if the classes have something in common.
+**Diferences between abstract and interfaces**: The difference between a interface and a abstract class is that an abstract class can manage states which interfaces can't. 
+Objects can implement multiple interfaces and objects can only extend one abstract class. The abstract class generalizes the attributes and methods that are the same in different objects meanwhile interfaces just establishes actions that a objects have to do, it doesn't matter if the classes have something in common.
 
-**can an abstract class implement a interface and the other way around?** an abstract class can implement as many interfaceses as it wants since the children of the abstract class will do the contract but not the other way arround since the subclass of an abstract class has too override its methods.
+**Can an abstract class implement a interface and the other way around?** an abstract class can implement as many interfaces as it wants. An interface can't extend an abstract however you can extend another interface.
 
-**Final**: It's where the pointer of where the element is stays the same wich causes the element to be constant. now with the list is a hole diferent story since the list only the first element stays constant since the pointers are managed while the list increments. For this to be avoided we have to to return a new list as a copy of the list we have inside the class. this way our original list wont change.
+**Final**: It's where the pointer of where the element is stays the same wich causes the element to be constant. now with the list is a hole diferent story since the list only the first element stays constant since the pointers are managed while the list increments. For this to be avoided we have to to return a new list as a copy of the list we have inside the class. this way our original list wont change. --seperated class methos and attribute
 
-**Static**: Its the command which tells that it's the class's attribute or method. So it doesn't belong to the object. so when we call out a static method we dont call the object to do it but we call the class. Class.method. A static bock is like a constructor of a class not an object's constructor so every time we instantiate a object it does that piece of code, it doesn't matter the parameters you insert into the object. these pieces of code can be located anywhere, and you can have several static blocks, the way it wil be reproduced is in the up to down order.
+**Static**: It's the command which tells that it's the class's attribute or method. So it doesn't belong to the object. so when we call out a static method we dont call the object to do it but we call the class. Class.method. A static bock is like a constructor of a class not an object's constructor so every time we instantiate a object it does that piece of code, it doesn't matter the parameters you insert into the object. these pieces of code can be located anywhere, and you can have several static blocks, the way it wil be reproduced is in the up to down order.
+
+### Accesors
 
 **Private**: It means that it's characteristics and actions only can be used by that object.
 
