@@ -1,23 +1,21 @@
 # OOP
 **Abstraction**: they are the representation of some thing in the real world representated in the virtual world. Like the things in the real world the objects can have actions wich are called methods and attributes.
 
-**Class**: They represent the types of objects, for example humans is the class of javier (since Javier is a type of human).
+**Polymorphism**: it's the abillity of a method to be overwritten or overloaded. Over writte is where the method changes it's action with the same attributes it's father method had, and overload is where the method does diferent actions once it receives diferent parameters.
 
-**Polymorphism**: it's the abillity of a method to be overwritten or overloaded. when its over written is where the method changes it's action with the same attributes it's father method had, now the overwrite only the child can do this. The overload is where the method does diferent actions once it receives diferent parameters, now this could be done by the same class or it's children.
-**recurssion**: It's the abillity of the method to call itself or another method that will return to the method that started. It's a way to make cicles via methods.these methods need a condition where if it happens it gets out of the recursive cicle.
+**heritage**: It's when a father class can pass methods and attributes to a son class.
 
-**heritage**: is like the human heritage it depends on the subclass if it wants the atributes or methods the father class have. They will have the methods and attributes it's facther have unles they are private.
---abstract: is the class where they generalize the different attributes and methods that that different classes have. and abstract methods are the methods that every subclass of the abstract class must have now those methods have to be overwritten unless they are default.
-
-**Encapsulation**: is where it encapsulates or has a range of use of its variables and methods between diferent classes.
+**Encapsulation**: It's when attributes and methods have a range of use between diferent classes.
 
 **Why use OOP?** it's a better way to work on since it depends on the class's comunication wich are messages, you can work on them modularly, you can make big problems into a squence of small problems, you can reuse code so it is time and space efficient, you can find bugs faster, and it also allows you to hide your data with ecapsulation.
 
---interface: its like a contract which establishes methods that every single class that implements this special kind of class has to do; how, it doesn't matter how.
+**Class**: They represent the types of objects, for example humans is the class of javier (since Javier is a type of human).
 
---diferences between abstract and interfaces: the difference between a interface and a abstract class is that an abstract class can manage attributes which interfaces can't. The interface can be multi implementated (a sub class can have several interfaces) and a abstract calss can only be extended to 1 (a subclass of an abstract class can only have 1). The abstract class generalizes the attributes and methods that are the same in different classes meanwhile the interface just establishes methods that a class has todo, it doesnt matter if the classes have something in common.
+**interface**: its like a contract which establishes methods that every single class that implements this special kind of class has to do; how, it doesn't matter how.
 
---can an abstract class implement a interface and the other way around? an abstract class can implement as many interfaceses as it wants since the children of the abstract class will do the contract but not the other way arround since the subclass of an abstract class has too override its methods.
+**diferences between abstract and interfaces**: the difference between a interface and a abstract class is that an abstract class can manage attributes which interfaces can't. The interface can be multi implementated (a sub class can have several interfaces) and a abstract calss can only be extended to 1 (a subclass of an abstract class can only have 1). The abstract class generalizes the attributes and methods that are the same in different classes meanwhile the interface just establishes methods that a class has todo, it doesnt matter if the classes have something in common.
+
+**can an abstract class implement a interface and the other way around?** an abstract class can implement as many interfaceses as it wants since the children of the abstract class will do the contract but not the other way arround since the subclass of an abstract class has too override its methods.
 
 --Encapsulation: is where it encapsulates or has a range of use of its variables and methods between diferent classes.
 
