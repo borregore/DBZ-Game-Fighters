@@ -17,37 +17,36 @@
 
 **Interface**: It's like a contract which establishes actions that every single object that implements this has to do; how each object implements it, it doesn't matter. 
 
-**Diferences between abstract and interfaces**: The difference between a interface and a abstract class is that an abstract class can manage states which interfaces can't. 
-Objects can implement multiple interfaces and objects can only extend one abstract class. The abstract class generalizes the attributes and methods that are the same in different objects meanwhile interfaces just establishes actions that a objects have to do, it doesn't matter if the classes have something in common.
+**Diferences between abstract and interfaces**: The difference between a interface and a abstract class is that an abstract class can manage states which interfaces can't. Objects can implement multiple interfaces and objects can only extend one abstract class. The abstract class generalizes the attributes and methods that are the same in different objects meanwhile interfaces just establishes actions that objects have to do, it doesn't matter if the classes have something in common.
 
-**Can an abstract class implement a interface and the other way around?** an abstract class can implement as many interfaces as it wants. An interface can't extend an abstract however you can extend another interface.
+**Can an abstract class implement a interface and the other way around?** an abstract class can implement as many interfaces as it wants. An interface can't extend an abstract class however you can extend another interface.
 
-**Final**: It's where the pointer of where the element is stays the same wich causes the element to be constant. now with the list is a hole diferent story since the list only the first element stays constant since the pointers are managed while the list increments. For this to be avoided we have to to return a new list as a copy of the list we have inside the class. this way our original list wont change. --seperated class methos and attribute
-- Class:
-- Methdod:
-- Attribute:
+**Final**: 
+- Class: It indicates that a class can not be extended.
+- Methdod: It indicates that a method can not be overridden or be hidden (for static).
+- Attribute: It indicates that the variable can only be initialized once.
 
-**Static**: It's the command which tells that it's the class's attribute or method. So it doesn't belong to the object. so when we call out a static method we dont call the object to do it but we call the class. Class.method. A static bock is like a constructor of a class not an object's constructor so every time we instantiate a object it does that piece of code, it doesn't matter the parameters you insert into the object. these pieces of code can be located anywhere, and you can have several static blocks, the way it wil be reproduced is in the up to down order.
-- Class:
-- Method:
-- Attribute:
-- Static block:
+**Static**: 
+- Class: Java has no way of making a top level static class. Java has static nested classes witch indicates that it doesn't have a refrence of an instance to an outer class.
+- Method:  A static method is called on a class instance and not to an object of a class.
+- Attribute: it's when the variable is attached to the class and not to the object. 
+- Static block: It's like the constructor of a class. Every time a class is instantiated, this piece of code will be executed.
 
-**Private**: It means that it's characteristics and actions only can be used by that object.
-- Class:
-- Method:
-- Attribute:
+**Private**: 
+- Class: It's not allowed to have a private class in java. However we can have private nested private class witch means that no outer classes can instantiate it.
+- Method: It's when a method can't be accesed by outer objects.
+- Attribute: It's when a Attribute can't be accesed by outer objects.
 
-**protected**: It's when the methods and attributes can be used by it's class and by it's children none other. That's untill a child declares it private. then right here it establishes a limit of use or a scope.
-- Class:
-- Method:
-- Attribute:
+**protected**: 
+- Class: It's not allowed to have a protected class in java. However we can have protected nested classes wich means it can't be instantiated by by other objects but it's children.
+- Method: It's when a method can be accesed only by it's children.
+- Attribute:It's when the attribute can be accesed only by it's children.
 
-**default**: it's laike the starting point of a abstract method or a method wich is in a interface. this allows these methods have a initial action wich can be overriden by its children at any time.
-- Class
-- Method
-- Attribute
+**default**: 
+- Class: In java there's no such thing as a static class.
+- Method: It's when the methods can have default implementations which helps the interfaces evolve without breaking the existing code.
+- Attribute: There's no such thing as a default attribute in java.
 
-**casting**: is when a object needs to use another objects qualities so what it does it's that it creates another object from that object except eith the type of the object needed. this has some restrictions since not any object can turn into another object so the objects's class it wants to be turned has to be a subclass of the object which is right now.
+**casting**: It's when you try to convert a object of type A to an object type B, if the object type A is not an instance of object type B then you will have a runtime error.
 
 
