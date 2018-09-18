@@ -43,8 +43,8 @@
 - Attribute: It's when the attribute can be accesed only by it's children.
 
 **Default**: 
-- Class: In java there's no such thing as a default class.
+- Class: It's when a class can't be instantiated by another class that is in a different package
 - Method: It's when a method can't be accesed by a class that is in a different package.
-- Attribute: There's no such thing as a default attribute in java.
+- Attribute: It's when an attribute can't be accesed by a class that is in a different package.
 
-**Casting**: It's when you try to convert a object of type A to an object type B, if the object type A is not a subclass of object type B then you will have a runtime error. You can cast primitives to other primitives but you can't cast primtives to calss and vice versa.
+**Casting**: It's when you try to convert a object of type A to an object type B, if the object type A is not a subclass of object type B then you will have a runtime error. You can cast primitives to other primitives but you can't cast primtives to calss and vice versa. There are two types of casting in java; implicit and explicit casting. The explicit casting requires a casting operator meanwhile the implicit doesn't, the compiler does it automatically. Casting an object from a subclass to a super class doesn't require an explicit cast. Casting an object from a super class to a subclass requires an explicit cast. 
