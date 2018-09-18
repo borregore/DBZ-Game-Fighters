@@ -47,4 +47,4 @@
 - Method: It's when a method can't be accesed by a class that is in a different package.
 - Attribute: There's no such thing as a default attribute in java.
 
-**Casting**: It's when you try to convert a object of type A to an object type B, if the object type A is not a subclass of object type B then you will have a runtime error. you can cast primitives to other primitives but you can't cast primtives to calss and vice versa.
+**Casting**: It's when you try to convert a object of type A to an object type B, if the object type A is not a subclass of object type B then you will have a runtime error. You can cast primitives to other primitives but you can't cast primtives to calss and vice versa.
