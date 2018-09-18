@@ -43,8 +43,8 @@
 - Attribute: It's when the attribute can be accesed only by it's children.
 
 **Default**: 
-- Class: In java there's no such thing as a static class.
-- Method: It's when the methods can have default implementations which helps the interfaces evolve without breaking the existing code.
+- Class: In java there's no such thing as a default class.
+- Method: It's when a method can't be accesed by a class that is in a different package.
 - Attribute: There's no such thing as a default attribute in java.
 
 **Casting**: It's when you try to convert a object of type A to an object type B, if the object type A is not a subclass of object type B then you will have a runtime error. you can cast primitives to other primitives but you can't cast primtives to calss and vice versa.
