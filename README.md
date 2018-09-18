@@ -23,11 +23,11 @@
 
 **Final**: 
 - Class: It indicates that a class can not be extended.
-- Methdod: It indicates that a method can not be overridden or be hidden (for static).
+- Method: It indicates that a method can not be overridden or be hidden (for static).
 - Attribute: It indicates that the variable can only be initialized once.
 
 **Static**: 
-- Class: Java has no way of making a top level static class. Java has static nested classes witch indicates that it doesn't have a refrence of an instance to an outer class.
+- Class: Java has no way of making a top level static class. Java has static nested classes witch indicates that it doesn't have a reference of an instance to an outer class.
 - Method:  A static method is called on a class instance and not to an object of a class.
 - Attribute: it's when the variable is attached to the class and not to the object. 
 - Static block: It's like the constructor of a class. Every time a class is instantiated, this piece of code will be executed.
@@ -37,16 +37,14 @@
 - Method: It's when a method can't be accesed by outer objects.
 - Attribute: It's when a Attribute can't be accesed by outer objects.
 
-**protected**: 
+**Protected**: 
 - Class: It's not allowed to have a protected class in java. However we can have protected nested classes wich means it can't be instantiated by by other objects but it's children.
 - Method: It's when a method can be accesed only by it's children.
-- Attribute:It's when the attribute can be accesed only by it's children.
+- Attribute: It's when the attribute can be accesed only by it's children.
 
-**default**: 
+**Default**: 
 - Class: In java there's no such thing as a static class.
 - Method: It's when the methods can have default implementations which helps the interfaces evolve without breaking the existing code.
 - Attribute: There's no such thing as a default attribute in java.
 
-**casting**: It's when you try to convert a object of type A to an object type B, if the object type A is not an instance of object type B then you will have a runtime error.
-
-
+**Casting**: It's when you try to convert a object of type A to an object type B, if the object type A is not a subclass of object type B then you will have a runtime error. you can cast primitives to other primitives but you can't cast primtives to calss and vice versa.
